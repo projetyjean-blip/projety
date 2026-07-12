@@ -31,7 +31,7 @@ const questions = [
   {
     question: "Comment puis-je soutenir le Projet Y ?",
     answer:
-      "Vous pouvez nous soutenir de plusieurs façons : en participant financièrement à partir de 1 000 FCFA (ou l'équivalent dans votre monnaie) ou le montant de votre choix, en partageant le projet, en donnant votre avis, ou simplement en rejoignant notre communauté pour suivre son évolution.",
+      "Vous pouvez nous soutenir de plusieurs façons : en participant financièrement à partir de 100 FCFA (ou l'équivalent dans votre monnaie) ou le montant de votre choix, en partageant le projet, en donnant votre avis, ou simplement en rejoignant notre communauté pour suivre son évolution.",
   },
   {
     question: "Je ne peux pas contribuer financièrement, puis-je quand même participer ?",

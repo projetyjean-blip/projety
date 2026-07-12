@@ -56,7 +56,7 @@ export default function Hero() {
 
             Nous avons simplement besoin d'un dernier élan pour franchir cette étape.
 
-            Que vous décidiez de contribuer à partir de <strong className="text-white">1&nbsp;000&nbsp;FCFA (ou l'équivalent dans votre monnaie)</strong>, de rejoindre notre communauté ou simplement de suivre cette aventure, votre présence compte déjà.
+            Que vous décidiez de contribuer à partir de <strong className="text-white">1&nbsp;00&nbsp;FCFA (ou l'équivalent dans votre monnaie)</strong>, de rejoindre notre communauté ou simplement de suivre cette aventure, votre présence compte déjà.
 
           </p>
 
@@ -72,7 +72,7 @@ export default function Hero() {
 
               <Heart size={20} />
 
-              Contribuer dès 1 000 FCFA
+              Contribuer dès 100 FCFA
 
 
               <ArrowRight
@@ -105,7 +105,7 @@ export default function Hero() {
             </div>
 
             <div>
-              ✓ Soutien à partir de 1 000 FCFA
+              ✓ Soutien à partir de 100 FCFA
             </div>
 
             <div>

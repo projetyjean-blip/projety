@@ -12,6 +12,7 @@ import {
 import FedaPayButton from "@/components/FedaPayButton";
 import FedaPayLoader from "@/components/payment/FedapayLoader";
 import Image from "next/image";
+import QrSupportSection from "@/components/support/QrSupportSection";
 
 
 const reasons = [
@@ -196,7 +197,7 @@ export default function SupportPage() {
 
               </p>
 
-
+{/* 
 <div className="mt-8 space-y-8">
 
 
@@ -251,9 +252,9 @@ export default function SupportPage() {
   </div>
 
 
-</div>
+</div> */}
 
-              {/* <Link
+              <Link
                 href="https://me.fedapay.com/soutiens-au-projet-y-2026"
                 className="group mt-8 inline-flex items-center gap-3 rounded-full bg-[#FF9E01] px-7 py-4 font-semibold text-black transition hover:opacity-90"
               >
@@ -266,7 +267,7 @@ export default function SupportPage() {
                   className="transition-transform group-hover:translate-x-1"
                 />
 
-              </Link> */}
+              </Link>
 
 
               <p className="mt-5 text-sm text-[#A1A1AA]">
@@ -286,6 +287,10 @@ export default function SupportPage() {
 
 
       </section>
+
+
+
+      <QrSupportSection />
 
 
 

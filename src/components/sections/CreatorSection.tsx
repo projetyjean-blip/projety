@@ -113,7 +113,7 @@ export default function CreatorSection() {
     <div className="flex items-center gap-3 rounded-2xl border border-white/10 bg-black/20 px-5 py-4">
       <span className="text-2xl">🌍</span>
       <span className="text-white">
-        Basé en Afrique
+        Basé au Bénin en Afrique, Cotonou
       </span>
     </div>
 

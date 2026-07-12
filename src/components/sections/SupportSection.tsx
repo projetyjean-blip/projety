@@ -70,7 +70,7 @@ export default function SupportSection() {
               </p>
 
               <p className="mt-5 text-lg leading-8 text-white">
-                Une contribution de <span className="font-semibold text-[#FF9E01]">100 FCFA</span> (ou l'équivalent dans votre monnaie),
+                Une contribution à partir de <span className="font-semibold text-[#FF9E01]">100 FCFA</span> (ou l'équivalent dans votre monnaie),
                 ou du montant de votre choix, peut réellement faire la différence
                 lorsque des centaines de personnes décident d'avancer ensemble.
               </p>

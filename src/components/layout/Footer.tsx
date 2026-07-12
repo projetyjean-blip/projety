@@ -102,7 +102,7 @@ export default function Footer() {
 
 
               <a
-                href="https://wa.me/2290142094147"
+                href="https://chat.whatsapp.com/BHDVlJdAG2y31XztXiJWtm?s=cl&p=a&ilr=4"
                 className="text-[#A1A1AA] transition-colors hover:text-white"
                 aria-label="WhatsApp"
               >

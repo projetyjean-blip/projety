@@ -124,8 +124,7 @@ export default function CreatorSection() {
       </span>
     </div>
 
-  </div>
-
+    
     <div className="flex items-center gap-3 rounded-2xl border border-white/10 bg-black/20 px-5 py-4">
     <span className="text-2xl">🌐</span>
     <span className="text-white">
@@ -139,6 +138,9 @@ export default function CreatorSection() {
       Autodidacte en développement mobile
     </span>
   </div>
+
+  </div>
+
           </motion.div>
         </div>
       </div>

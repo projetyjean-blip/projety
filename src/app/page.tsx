@@ -7,12 +7,14 @@ import SupportSection from "@/components/sections/SupportSection";
 import CommunitySection from "@/components/sections/CommunitySection";
 import JournalPreview from "@/components/sections/JournalPreview";
 import CreatorSection from "@/components/sections/CreatorSection";
+import ProjectOverview from "@/components/sections/ProjectOverview";
 
 export default function Home() {
   return (
     <>
       <Hero />
       <CreatorSection />
+      <ProjectOverview />
       <StorySection />
       <PhilosophySection />
       <Timeline />

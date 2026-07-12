@@ -46,11 +46,11 @@ const footerLinks = [
       },
       {
         name: "Confidentialité",
-        href: "/privacy",
+        href: "#",
       },
       {
         name: "Conditions",
-        href: "/terms",
+        href: "#",
       },
     ],
   },
@@ -93,7 +93,7 @@ export default function Footer() {
             <div className="mt-6 flex gap-4">
 
               <a
-                href="mailto:contact@projet-y.com"
+                href="mailto:mancreator06@gmail.com"
                 className="text-[#A1A1AA] transition-colors hover:text-white"
                 aria-label="Email"
               >

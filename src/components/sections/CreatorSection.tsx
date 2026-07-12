@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { UserRound } from "lucide-react";
+import Image from "next/image";
 
 export default function CreatorSection() {
   return (
@@ -16,12 +17,26 @@ export default function CreatorSection() {
             transition={{ duration: 0.6 }}
             className="mx-auto"
           >
-            <div className="flex h-56 w-56 items-center justify-center rounded-full border border-white/10 bg-white/[0.03]">
+            {/* <div className="flex h-56 w-56 items-center justify-center rounded-full border border-white/10 bg-white/[0.03]">
+                    
               <UserRound
                 size={90}
                 className="text-[#FF9E01]"
               />
+            </div> */}
+            <div className="mx-auto h-56 w-56 overflow-hidden rounded-full ring-4 ring-[#FF9E01]/10">
+
+            <Image
+                src="/images/chivanos_sessinou.jpg"
+                alt="Chivanos Sessinou"
+                width={500}
+                height={500}
+                priority
+                className="h-full w-full object-cover"
+            />
+
             </div>
+
           </motion.div>
 
           {/* Texte */}
@@ -40,41 +55,90 @@ export default function CreatorSection() {
             </h2>
 
             <div className="mt-8 space-y-6 text-lg leading-8 text-[#A1A1AA]">
-              <p>
+            <p>
                 Je suis <span className="font-medium text-white">Chivanos Sessinou</span>,
                 fondateur du Projet Y.
-              </p>
+            </p>
 
-              <p>
-                Passionné par la technologie, l'innovation et la création de
-                solutions utiles, je consacre aujourd'hui une grande partie de
-                mon temps à transformer cette vision en une réalité concrète.
-              </p>
+            <p>
+                Comme beaucoup de personnes passionnées par la technologie, j'ai toujours
+                aimé imaginer des solutions capables d'avoir un impact positif sur le
+                quotidien des autres. C'est cette envie qui m'a conduit à lancer cette
+                aventure.
+            </p>
 
-              <p>
-                Au-delà de la technologie, je crois que les projets qui
-                traversent le temps sont ceux qui sont construits avec
-                patience, exigence et une volonté constante d'apprendre et
-                de progresser.
-              </p>
+            <p>
+                Depuis plusieurs mois, je travaille presque chaque jour sur ce projet.
+                J'apprends constamment, je teste de nouvelles idées, je corrige mes
+                erreurs et je continue d'avancer avec une conviction : construire quelque
+                chose de réellement utile demande du temps et de la persévérance.
+            </p>
 
-              <p>
-                À travers ce site, je souhaite partager cette aventure en toute
-                transparence, étape après étape, avec toutes les personnes qui
-                souhaitent découvrir son évolution depuis ses débuts.
-              </p>
+            <p>
+                Aujourd'hui, le prototype est en cours de finalisation. Ce site est une
+                façon de partager cette aventure dès ses premiers pas avec toutes les
+                personnes qui souhaitent la suivre, l'encourager ou simplement découvrir
+                son évolution.
+            </p>
             </div>
 
             <div className="mt-10 rounded-2xl border border-[#FF9E01]/20 bg-[#FF9E01]/5 p-6">
               <p className="text-xl italic leading-8 text-white">
-                « Les plus grandes aventures commencent souvent dans le silence,
-                bien avant d'être découvertes par le monde. »
+                « Je ne cherche pas simplement à créer une technologie.
+                Je veux construire quelque chose qui puisse être utile,
+                durable et laisser une empreinte positive. »
               </p>
 
               <p className="mt-5 font-medium text-[#FF9E01]">
                 — Chivanos Sessinou
               </p>
             </div>
+
+             <div className="mt-8 grid gap-4 sm:grid-cols-2">
+
+    <div className="flex items-center gap-3 rounded-2xl border border-white/10 bg-black/20 px-5 py-4">
+      <span className="text-2xl">💻</span>
+      <span className="text-white">
+        Passionné de technologie
+      </span>
+    </div>
+
+    <div className="flex items-center gap-3 rounded-2xl border border-white/10 bg-black/20 px-5 py-4">
+      <span className="text-2xl">🚀</span>
+      <span className="text-white">
+        Entrepreneur
+      </span>
+    </div>
+
+    <div className="flex items-center gap-3 rounded-2xl border border-white/10 bg-black/20 px-5 py-4">
+      <span className="text-2xl">🌍</span>
+      <span className="text-white">
+        Basé en Afrique
+      </span>
+    </div>
+
+    <div className="flex items-center gap-3 rounded-2xl border border-white/10 bg-black/20 px-5 py-4">
+      <span className="text-2xl">❤️</span>
+      <span className="text-white">
+        Construire des solutions utiles
+      </span>
+    </div>
+
+  </div>
+
+    <div className="flex items-center gap-3 rounded-2xl border border-white/10 bg-black/20 px-5 py-4">
+    <span className="text-2xl">🌐</span>
+    <span className="text-white">
+      Développeur Web Certifié
+    </span>
+  </div>
+
+  <div className="flex items-center gap-3 rounded-2xl border border-white/10 bg-black/20 px-5 py-4">
+    <span className="text-2xl">📱</span>
+    <span className="text-white">
+      Autodidacte en développement mobile
+    </span>
+  </div>
           </motion.div>
         </div>
       </div>

@@ -27,7 +27,7 @@ export default function CreatorSection() {
             <div className="mx-auto h-56 w-56 overflow-hidden rounded-full ring-4 ring-[#FF9E01]/10">
 
             <Image
-                src="/images/chivanos_sessinou.jpg"
+                src="/images/jean_martin_sessinou.jpg"
                 alt="Chivanos Sessinou"
                 width={500}
                 height={500}
@@ -56,7 +56,7 @@ export default function CreatorSection() {
 
             <div className="mt-8 space-y-6 text-lg leading-8 text-[#A1A1AA]">
             <p>
-                Je suis <span className="font-medium text-white">Chivanos Sessinou</span>,
+                Je suis <span className="font-medium text-white">Jean Martin Sessinou</span>,
                 fondateur du Projet Y.
             </p>
 
@@ -90,7 +90,7 @@ export default function CreatorSection() {
               </p>
 
               <p className="mt-5 font-medium text-[#FF9E01]">
-                — Chivanos Sessinou
+                — Jean Martin Sessinou
               </p>
             </div>
 

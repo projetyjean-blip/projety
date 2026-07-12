@@ -102,7 +102,7 @@ export default function Footer() {
 
 
               <a
-                href="#"
+                href="https://wa.me/2290142094147"
                 className="text-[#A1A1AA] transition-colors hover:text-white"
                 aria-label="WhatsApp"
               >
@@ -111,7 +111,7 @@ export default function Footer() {
 
  
               <a
-                href="#"
+                href="https://www.linkedin.com/in/jean-martin-sessinou-bb1a18242"
                 className="text-[#A1A1AA] transition-colors hover:text-white"
                 aria-label="LinkedIn"
               >

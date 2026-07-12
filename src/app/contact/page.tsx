@@ -22,12 +22,12 @@ const contacts = [
     link: "mailto:mancreator06@gmail.com",
   },
   {
-    name: "Communauté WhatsApp",
-    description:
-      "Rejoignez les premières personnes qui suivent l'évolution du Projet Y et découvrez les prochaines étapes.",
-    icon: MessageCircle,
+  name: "Communauté WhatsApp",
+  description:
+    "Rejoignez notre communauté pour suivre l'évolution du Projet Y, échanger et recevoir les prochaines actualités.",
+  icon: MessageCircle,
     link: "https://chat.whatsapp.com/BHDVlJdAG2y31XztXiJWtm?s=cl&p=a&ilr=4",
-  },
+},
 //   {
 //     name: "Professionnels et partenaires",
 //     description:

@@ -34,6 +34,49 @@ export const metadata: Metadata = {
 };
 
 
+
+// export const metadata: Metadata = {
+//   title: "Projet Y — Une vision en construction",
+//   description:
+//     "Découvrez l'histoire, la vision et l'évolution d'une aventure technologique en construction.",
+
+//   keywords: [
+//     "innovation",
+//     "technologie",
+//     "aventure",
+//     "communauté",
+//     "prototype",
+//   ],
+
+//   icons: {
+//     icon: "/icon/projet_Y.png",
+//     shortcut: "/icon/projet_Y.png",
+//     apple: "/icon/projet_Y.png",
+//   },
+
+//   openGraph: {
+//     title: "Projet Y — Une vision en construction",
+//     description:
+//       "Découvrez l'histoire, la vision et l'évolution d'une aventure technologique en construction.",
+//     images: [
+//       {
+//         url: "/icon/projet_Y.png",
+//         width: 512,
+//         height: 512,
+//         alt: "Projet Y",
+//       },
+//     ],
+//   },
+
+//   twitter: {
+//     card: "summary_large_image",
+//     title: "Projet Y — Une vision en construction",
+//     description:
+//       "Découvrez l'histoire, la vision et l'évolution d'une aventure technologique en construction.",
+//     images: ["/icon/projet_Y.png"],
+//   },
+// };
+
 export default function RootLayout({
   children,
 }: Readonly<{

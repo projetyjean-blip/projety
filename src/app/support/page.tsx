@@ -11,6 +11,7 @@ import {
 } from "lucide-react";
 import FedaPayButton from "@/components/FedaPayButton";
 import FedaPayLoader from "@/components/payment/FedapayLoader";
+import Image from "next/image";
 
 
 const reasons = [
@@ -196,7 +197,63 @@ export default function SupportPage() {
               </p>
 
 
-              <Link
+<div className="mt-8 space-y-8">
+
+
+  <Link
+    href="https://me.fedapay.com/soutiens-au-projet-y-2026"
+    className="group inline-flex items-center gap-3 rounded-full bg-[#FF9E01] px-7 py-4 font-semibold text-black transition hover:opacity-90"
+  >
+
+    Soutenir le Projet Y
+
+
+    <ArrowRight
+      size={18}
+      className="transition-transform group-hover:translate-x-1"
+    />
+
+  </Link>
+
+
+
+  <div className="rounded-3xl border border-white/10 bg-black/20 p-6 text-center">
+
+
+    <p className="mb-5 text-sm text-[#A1A1AA]">
+
+      Vous pouvez également scanner ce QR code
+      pour effectuer votre contribution directement.
+
+    </p>
+
+
+    <div className="mx-auto flex w-fit rounded-2xl bg-white p-4">
+
+      <Image
+        src="/images/qr.png"
+        alt="QR Code paiement FedaPay Projet Y"
+        width={220}
+        height={220}
+        priority
+      />
+
+    </div>
+
+
+    <p className="mt-5 text-sm text-[#A1A1AA]">
+
+      Paiement sécurisé via FedaPay.
+
+    </p>
+
+
+  </div>
+
+
+</div>
+
+              {/* <Link
                 href="https://me.fedapay.com/soutiens-au-projet-y-2026"
                 className="group mt-8 inline-flex items-center gap-3 rounded-full bg-[#FF9E01] px-7 py-4 font-semibold text-black transition hover:opacity-90"
               >
@@ -209,7 +266,7 @@ export default function SupportPage() {
                   className="transition-transform group-hover:translate-x-1"
                 />
 
-              </Link>
+              </Link> */}
 
 
               <p className="mt-5 text-sm text-[#A1A1AA]">

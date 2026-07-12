@@ -197,7 +197,7 @@ export default function SupportPage() {
 
 
               <Link
-                href="https://sandbox-me.fedapay.com/soutiens-au-projet-y"
+                href="https://me.fedapay.com/soutiens-au-projet-y-2026"
                 className="group mt-8 inline-flex items-center gap-3 rounded-full bg-[#FF9E01] px-7 py-4 font-semibold text-black transition hover:opacity-90"
               >
 

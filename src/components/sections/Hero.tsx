@@ -56,7 +56,7 @@ export default function Hero() {
 
             Nous avons simplement besoin d'un dernier élan pour franchir cette étape.
 
-            Que vous décidiez de contribuer à partir de <strong className="text-white">1&nbsp;000&nbsp;FCFA</strong>, de rejoindre notre communauté ou simplement de suivre cette aventure, votre présence compte déjà.
+            Que vous décidiez de contribuer à partir de <strong className="text-white">1&nbsp;000&nbsp;FCFA (ou l'équivalent dans votre monnaie)</strong>, de rejoindre notre communauté ou simplement de suivre cette aventure, votre présence compte déjà.
 
           </p>
 

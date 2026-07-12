@@ -41,7 +41,7 @@ const timeline = [
   {
     title: "Aujourd'hui, nous avons besoin de vous",
     description:
-      "Votre soutien nous aidera à franchir cette dernière étape, à finaliser le prototype et à préparer sa présentation officielle. Chaque contribution, même de 1 000 FCFA, peut faire la différence.",
+      "Votre soutien nous aidera à franchir cette dernière étape, à finaliser le prototype et à préparer sa présentation officielle. Chaque contribution, même de 1 000 FCFA (ou l'équivalent dans votre monnaie), peut faire la différence.",
     completed: false,
   },
   {

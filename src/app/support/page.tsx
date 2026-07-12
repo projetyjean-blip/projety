@@ -182,7 +182,7 @@ export default function SupportPage() {
 
               <p className="mt-5 leading-8 text-[#A1A1AA]">
 
-                Que ce soit 1 000 FCFA ou le montant de votre choix,
+                Que ce soit 1 000 FCFA (ou l'équivalent dans votre monnaie) ou le montant de votre choix,
                 votre participation contribue directement aux prochaines
                 étapes du Projet Y.
 

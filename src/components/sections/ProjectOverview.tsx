@@ -75,6 +75,13 @@ export default function ProjectOverview() {
           </p>
 
           <p className="mt-6 text-lg leading-8 text-[#A1A1AA]">
+            Ce travail ne s'est pas limité au développement technique. Il a
+            également consisté à comprendre le besoin identifié, explorer
+            différentes approches, concevoir une solution cohérente et construire
+            des bases solides avant d'arriver au prototype actuel.
+            </p>
+
+          <p className="mt-6 text-lg leading-8 text-[#A1A1AA]">
             Afin de protéger le travail d'innovation, les détails de cette
             solution seront présentés lors de son lancement officiel.
           </p>

@@ -6,57 +6,56 @@ import {
   ChevronDown,
 } from "lucide-react";
 
-
 const questions = [
   {
     question: "Qu'est-ce que le Projet Y ?",
     answer:
-      "Le Projet Y est une application mobile actuellement en cours de développement. Elle est née de plusieurs mois de réflexion, de recherche et de conception autour d'un besoin réel du quotidien que nous souhaitons adresser grâce aux possibilités offertes par les technologies actuelles.",
+      "Le Projet Y est une application mobile actuellement en cours de développement. Son objectif est de proposer une nouvelle approche pour répondre à un besoin réel du quotidien grâce aux possibilités offertes par les technologies actuelles.",
   },
   {
     question: "Pourquoi avoir créé le Projet Y ?",
     answer:
-      "Le projet est né d'un constat simple : certains besoins du quotidien restent encore insuffisamment adressés. Nous avons donc choisi de consacrer plusieurs mois à imaginer, concevoir et développer une nouvelle approche capable d'y répondre de manière innovante.",
+      "Le projet est né de l'observation d'un besoin concret qui, selon nous, mérite une approche différente. Nous avons choisi de créer une solution capable d'y répondre de manière innovante tout en construisant des bases solides dès le départ.",
+  },
+  {
+    question: "Sur quoi avez-vous travaillé pendant tous ces mois ?",
+    answer:
+      "Le développement du Projet Y ne s'est pas limité à écrire du code. Il a également consisté à comprendre le besoin identifié, explorer différentes approches, concevoir l'architecture de l'application, définir une expérience cohérente et construire progressivement un prototype solide.",
   },
   {
     question: "Où en est le développement aujourd'hui ?",
     answer:
-      "Après plusieurs mois de travail, le premier prototype est en cours de finalisation. Cette étape nous permettra de préparer les premiers tests avant la présentation officielle de l'application.",
+      "Après plusieurs mois de travail, le premier prototype est en cours de finalisation. Cette étape permettra de préparer les premiers tests avant la présentation officielle de l'application.",
   },
   {
     question: "Pourquoi demandez-vous un soutien aujourd'hui ?",
     answer:
-      "La phase de conception représente une grande partie du travail, mais finaliser un prototype demande également des ressources techniques. Le soutien de notre communauté nous aide à franchir cette dernière étape dans de meilleures conditions et à accélérer la suite du développement.",
+      "Le développement d'une application demande du temps mais aussi des ressources. Les contributions permettront de finaliser le prototype, poursuivre les développements techniques, réaliser les premiers tests et préparer le lancement dans de bonnes conditions.",
   },
   {
     question: "À quoi serviront les contributions ?",
     answer:
-      "Les contributions serviront principalement à financer les prochaines étapes du projet : finalisation du prototype, infrastructure technique, tests, améliorations et préparation du lancement. Chaque contribution participe directement à l'avancement du Projet Y.",
+      "Les contributions serviront à financer les prochaines étapes du projet : finalisation du prototype, infrastructure technique, hébergement, tests, améliorations et préparation du lancement. Chaque contribution participe directement à faire avancer le Projet Y.",
   },
   {
-    question: "Pourquoi ne dévoilez-vous pas encore tous les détails de l'application ?",
+    question: "Pourquoi ne dévoilez-vous pas encore le fonctionnement de l'application ?",
     answer:
-      "Nous souhaitons être transparents sur notre démarche tout en protégeant le travail d'innovation réalisé depuis plusieurs mois. Les fonctionnalités, le fonctionnement détaillé et les choix de conception seront dévoilés lors du lancement officiel.",
+      "Nous souhaitons présenter le Projet Y au moment où il sera suffisamment abouti. En attendant, certains éléments restent volontairement confidentiels afin de protéger le travail d'innovation réalisé depuis plusieurs mois.",
   },
   {
     question: "Comment puis-je soutenir le Projet Y ?",
     answer:
-      "Vous pouvez contribuer financièrement à partir de 100 FCFA (ou l'équivalent dans votre monnaie), ou du montant de votre choix. Vous pouvez également partager le projet, rejoindre notre communauté, donner votre avis ou simplement suivre son évolution. Toutes les formes de soutien sont précieuses.",
+      "Vous pouvez contribuer à partir de 100 FCFA (ou l'équivalent dans votre monnaie), ou du montant de votre choix. Vous pouvez également partager le projet, rejoindre notre communauté, donner votre avis ou simplement suivre son évolution.",
   },
   {
-    question: "Je ne peux pas contribuer financièrement. Puis-je quand même participer ?",
+    question: "Je ne peux pas contribuer financièrement. Puis-je quand même aider ?",
     answer:
-      "Oui. Une aventure se construit aussi grâce aux personnes qui en parlent autour d'elles, la recommandent, donnent des conseils ou suivent son évolution. Votre soutien ne se limite pas à une contribution financière.",
-  },
-  {
-    question: "Comment suivre l'évolution du Projet Y ?",
-    answer:
-      "Vous pouvez suivre les différentes étapes à travers notre journal de construction, rejoindre notre communauté et consulter régulièrement ce site, où nous partageons les principales avancées du projet.",
+      "Oui, bien sûr. Parler du projet autour de vous, le partager, rejoindre la communauté ou simplement suivre son évolution représente déjà un soutien précieux. Les plus grandes aventures grandissent aussi grâce à leur communauté.",
   },
   {
     question: "Quand le Projet Y sera-t-il présenté officiellement ?",
     answer:
-      "La présentation officielle aura lieu lorsque le prototype sera suffisamment abouti pour être présenté dans les meilleures conditions. Notre priorité est de proposer une première version solide avant de dévoiler l'ensemble du projet.",
+      "La présentation officielle aura lieu lorsque le prototype sera suffisamment mature. Notre priorité est de proposer une première version solide avant de dévoiler l'ensemble du projet.",
   },
 ];
 
@@ -64,45 +63,54 @@ const questions = [
 //   {
 //     question: "Qu'est-ce que le Projet Y ?",
 //     answer:
-//       "Le Projet Y est un projet technologique que nous construisons progressivement depuis plusieurs mois. Notre objectif est de créer une solution utile et durable, mais nous avançons étape par étape afin de construire des bases solides avant sa présentation officielle.",
+//       "Le Projet Y est une application mobile actuellement en cours de développement. Elle est née de plusieurs mois de réflexion, de recherche et de conception autour d'un besoin réel du quotidien que nous souhaitons adresser grâce aux possibilités offertes par les technologies actuelles.",
+//   },
+//   {
+//     question: "Pourquoi avoir créé le Projet Y ?",
+//     answer:
+//       "Le projet est né d'un constat simple : certains besoins du quotidien restent encore insuffisamment adressés. Nous avons donc choisi de consacrer plusieurs mois à imaginer, concevoir et développer une nouvelle approche capable d'y répondre de manière innovante.",
+//   },
+//   {
+//     question: "Où en est le développement aujourd'hui ?",
+//     answer:
+//       "Après plusieurs mois de travail, le premier prototype est en cours de finalisation. Cette étape nous permettra de préparer les premiers tests avant la présentation officielle de l'application.",
 //   },
 //   {
 //     question: "Pourquoi demandez-vous un soutien aujourd'hui ?",
 //     answer:
-//       "Après plusieurs mois de recherche, de conception et de développement, nous sommes arrivés à une étape importante : finaliser le premier prototype. Le soutien de notre communauté nous permettra d'accélérer cette dernière phase et de continuer cette construction dans de meilleures conditions.",
+//       "La phase de conception représente une grande partie du travail, mais finaliser un prototype demande également des ressources techniques. Le soutien de notre communauté nous aide à franchir cette dernière étape dans de meilleures conditions et à accélérer la suite du développement.",
 //   },
 //   {
 //     question: "À quoi serviront les contributions ?",
 //     answer:
-//       "Les contributions serviront principalement à accompagner les prochaines étapes du développement : finalisation technique, infrastructure, tests et préparation de la suite du projet. Chaque soutien nous aide à avancer concrètement.",
+//       "Les contributions serviront principalement à financer les prochaines étapes du projet : finalisation du prototype, infrastructure technique, tests, améliorations et préparation du lancement. Chaque contribution participe directement à l'avancement du Projet Y.",
 //   },
 //   {
-//     question: "Pourquoi certaines informations ne sont-elles pas encore publiques ?",
+//     question: "Pourquoi ne dévoilez-vous pas encore tous les détails de l'application ?",
 //     answer:
-//       "Nous croyons à la transparence, mais certaines parties du projet restent volontairement protégées afin de préserver le travail de recherche, les idées développées et les éléments importants avant leur présentation officielle.",
+//       "Nous souhaitons être transparents sur notre démarche tout en protégeant le travail d'innovation réalisé depuis plusieurs mois. Les fonctionnalités, le fonctionnement détaillé et les choix de conception seront dévoilés lors du lancement officiel.",
 //   },
 //   {
 //     question: "Comment puis-je soutenir le Projet Y ?",
 //     answer:
-//       "Vous pouvez nous soutenir de plusieurs façons : en participant financièrement à partir de 100 FCFA (ou l'équivalent dans votre monnaie) ou le montant de votre choix, en partageant le projet, en donnant votre avis, ou simplement en rejoignant notre communauté pour suivre son évolution.",
+//       "Vous pouvez contribuer financièrement à partir de 100 FCFA (ou l'équivalent dans votre monnaie), ou du montant de votre choix. Vous pouvez également partager le projet, rejoindre notre communauté, donner votre avis ou simplement suivre son évolution. Toutes les formes de soutien sont précieuses.",
 //   },
 //   {
-//     question: "Je ne peux pas contribuer financièrement, puis-je quand même participer ?",
+//     question: "Je ne peux pas contribuer financièrement. Puis-je quand même participer ?",
 //     answer:
-//       "Oui, absolument. Une aventure ne se construit pas uniquement avec de l'argent. Un partage, un encouragement, une idée ou simplement le fait de faire connaître le projet peut également avoir une grande valeur.",
+//       "Oui. Une aventure se construit aussi grâce aux personnes qui en parlent autour d'elles, la recommandent, donnent des conseils ou suivent son évolution. Votre soutien ne se limite pas à une contribution financière.",
 //   },
 //   {
 //     question: "Comment suivre l'évolution du Projet Y ?",
 //     answer:
-//       "Vous pouvez suivre les différentes étapes à travers notre journal de bord et rejoindre notre communauté afin de recevoir les prochaines actualités, les avancées importantes et les annonces du projet.",
+//       "Vous pouvez suivre les différentes étapes à travers notre journal de construction, rejoindre notre communauté et consulter régulièrement ce site, où nous partageons les principales avancées du projet.",
 //   },
 //   {
 //     question: "Quand le Projet Y sera-t-il présenté officiellement ?",
 //     answer:
-//       "La présentation complète aura lieu lorsque les conditions seront réunies et que nous pourrons partager le projet dans les meilleures conditions, avec une base suffisamment solide.",
+//       "La présentation officielle aura lieu lorsque le prototype sera suffisamment abouti pour être présenté dans les meilleures conditions. Notre priorité est de proposer une première version solide avant de dévoiler l'ensemble du projet.",
 //   },
 // ];
-
 
 export default function FAQPage() {
   return (
